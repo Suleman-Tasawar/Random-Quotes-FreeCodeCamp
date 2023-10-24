@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+/*Layouts*/
+.flex--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*Typography*/
+.margin-t-3 {
+  margin-top: 3rem;
+}
+
+#root {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(155, 89, 182);
+}
+
+#quote-box {
+  padding: 1rem;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  background-color: #ffff;
+  color: rgb(155, 89, 182);
+  width: 50%;
+}
+
+#author {
+  text-align: right;
+}
+
+#tweet-quote {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  background-color: rgb(155, 89, 182);
+}
+
+#new-quote {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 43px;
+  padding: 0.3rem;
+  color: #ffff;
+  background-color: rgb(155, 89, 182);
+}
